@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* Universal Styles */
+html {
+  font-size: 18px;
+}
+body {
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.4;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Banner and Header */
+.banner {
+  background-image: url("../images/glasses.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 31rem;
+}
+.header {
+  background-color: cadetblue;
+  position: relative;
+  top: 1rem;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-itms: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo img {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 2rem 2rem 2rem 0;
+}
+.motto {
+  position: relative;
+  top: 10rem;
+  left: -2rem;
+  background-color: white;
+  padding: 2rem 0;
+  display: inline-block;
+}
+.motto span {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 0 5rem;
+}
+
+/* Main */
+.services {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding: 3rem;
+}
+.service {
+  width: 5rem;
+}
+.service.exam img {
+  width: 3.5rem;
+}
+.service.fitting img,
+.service.delivery img {
+  width: 5rem;
+}
+.services .description {
+  text-align: center;
+}
+.business-info {
+  display: flex;
+  flex-direction: row;
+}
+.philosophy {
+  width: 35%;
+  text-align: left;
+  padding-left: 10%;
+}
+.appointments {
+  width: 35%;
+  text-align: left;
+  padding-left: 5%;
+}
+.business-info .description {
+}
+.title {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  display: block;
+  width: 10rem;
+  padding: .5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.business-info p {
+  padding: 1rem 0;
+}
+
+/* Footer */
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  max-width: 1032px;
+  margin: 5rem auto 0 auto;
+}
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
