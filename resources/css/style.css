@@ -140,8 +140,10 @@ nav li {
   .services {
     flex-direction: column;
     align-items: center;
+    padding: 3.77rem 0;
   }
 }
+
 .service {
   display: flex;
   flex-direction: column;
@@ -165,11 +167,16 @@ nav li {
   .service {
     font-size: 0.77rem;
     padding: 0;
+    height: auto;
+  }
+  .service img {
+    padding: 1.54rem;
   }
   .none {
     display: none;
   }
 }
+
 .business-info {
   display: flex;
   flex-direction: row;
@@ -211,9 +218,10 @@ nav li {
   .appointments {
     width: 100%;
     padding-bottom: 4rem;
+    line-height: 1.8;
   }
   .title {
-    width: 100%;
+    width: auto;
     text-align: center;
   }
 }
